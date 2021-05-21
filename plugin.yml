@@ -1,0 +1,17 @@
+name: Replayer
+main: br.lois.replayer.Main
+
+api-version: 1.16
+
+loadbefore: [ProtocolLib]
+depend: [ProtocolLib]
+softdepend: [ProtocolLib]
+
+author: Lois
+version: 0.0.1-SNAPSHOT
+
+commands:
+  recorder:
+    aliases: [record, r]
+  replayer:
+    aliases: [replay, rr]
